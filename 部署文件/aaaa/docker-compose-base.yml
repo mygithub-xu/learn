@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+  mysql:
+    build: ./docker-base/mysql/
+      #context: ./
+      #dockerfile: ./docker-base/mysql/mysql-Dockerfile
+    ports:
+      - 33307:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: wym
+      MYSQL_PASSWORD: 123456
+  redis:
+    image: 'redis:5.0.0'
+    container_name: project-redis
+    restart: always
+    command: redis-server --requirepass hehe
+    ports:
+      - "6379:6379"
+      
+  rabbitmq:
+    image: rabbitmq:3.7.18
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: 123456
+    ports:
+      - 5672:5672
+      - 15672:15672

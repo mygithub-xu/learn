@@ -1,0 +1,3 @@
+chmod u+x *.sh
+docker-compose -f docker-compose-product.yml build
+docker-compose -f docker-compose-product.yml up -d

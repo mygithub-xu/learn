@@ -1,0 +1,34 @@
+version: '3.3'
+services:
+  web:
+    container_name: project-web
+    restart: always
+    build:
+      context: ./
+      dockerfile: ./docker/web-Dockerfile
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - "80:80"
+  api:
+    container_name: project-api
+    restart: always
+    build:
+      context: ./
+      dockerfile: ./docker/api-Dockerfile
+    working_dir: /app
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - "9000:9000"
+  api2:
+    container_name: project-api2
+    restart: always
+    build:
+      context: ./
+      dockerfile: ./docker/api2-Dockerfile
+    working_dir: /app
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+      - "4040:4040"
