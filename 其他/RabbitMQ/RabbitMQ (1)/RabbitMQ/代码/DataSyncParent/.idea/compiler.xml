@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="common" />
+        <module name="mapper" />
+        <module name="pojo" />
+        <module name="product" />
+        <module name="provider" />
+        <module name="rabbitmq" />
+        <module name="receive" />
+        <module name="search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="DataSyncParent" target="1.8" />
+      <module name="mapper" target="1.8" />
+      <module name="pojo" target="1.8" />
+      <module name="product" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="receive" target="1.8" />
+      <module name="search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

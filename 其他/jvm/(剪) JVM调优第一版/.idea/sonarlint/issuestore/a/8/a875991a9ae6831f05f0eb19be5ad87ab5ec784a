@@ -1,0 +1,8 @@
+
+T
+java:S1128"9Remove this unused import 'java.awt.image.VolatileImage'.(¡”„Çøÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "hello".(¬»ï¹
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Åˆý¹úÿÿÿÿ
+@
+java:S1481"*Remove this unused "hello" local variable.(¬»ï¹

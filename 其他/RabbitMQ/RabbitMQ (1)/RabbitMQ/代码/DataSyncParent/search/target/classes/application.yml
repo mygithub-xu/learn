@@ -1,0 +1,7 @@
+spring:
+  data:
+    solr:
+      host: http://192.168.93.10:8983/solr
+      core: testcore
+server:
+  port: 8988

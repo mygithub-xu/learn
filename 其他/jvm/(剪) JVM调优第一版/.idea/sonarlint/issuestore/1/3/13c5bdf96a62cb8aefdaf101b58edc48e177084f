@@ -1,0 +1,15 @@
+
+‡
+java:S4165"lRemove this useless assignment; "msbClassLoader" already holds the assigned value along all execution paths.(¨¥Í—ÿÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(êìŸ»
+C
+java:S3740"/Provide the parametrized type for this generic.(©Åb
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(º«Íìùÿÿÿÿ
+]
+java:S1854"BRemove this useless assignment to local variable "msbClassLoader".(¨¥Í—ÿÿÿÿÿ
+]
+java:S1854"BRemove this useless assignment to local variable "msbClassLoader".(¨¥Í—ÿÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(ÛŒöâþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦Ä¯˜ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÚÄ’úÿÿÿÿ

@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: dubbo-product
+  registry:
+    address: zookeeper://192.168.93.10:2181
+spring:
+  profiles:
+    active: rabbitmq
+
